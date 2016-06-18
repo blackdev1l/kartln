@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kartln</string>
+    <string name="title_activity_main">Kartln</string>
+    <string name="action_delete">Delete</string>
+    <string name="filename">logger.txt</string>
+    <string name="action_undo">undo</string>
+</resources>
