@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
         // specify an adapter (see also next example)
 
-        val mAdapter = DayAdapter(readFile());
+        val mAdapter = DayAdapter(readFile())
         mRecyclerView.setAdapter(mAdapter);
 
 
@@ -95,7 +95,7 @@ class MainActivity : AppCompatActivity() {
         mapper.writeValue(output,days)
         output.close()
 
-        val mAdapter = DayAdapter(days);
+        val mAdapter = DayAdapter(days)
 
          mRecyclerView.setAdapter(mAdapter);
 

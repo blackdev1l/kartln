@@ -51,9 +51,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Medium Text"
                 android:id="@+id/thirdMark"
-                android:layout_below="@+id/secondMark"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="17dp" />
+                android:layout_above="@+id/secondMark"
+                android:layout_centerHorizontal="true" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -62,8 +61,28 @@
                 android:text="Medium Text"
                 android:id="@+id/fourthMark"
                 android:layout_below="@+id/thirdMark"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="17dp" />
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/secondHalf"
+                android:paddingEnd="30dp"
+                android:layout_alignBottom="@+id/fourthMark"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/firstHalf"
+                android:paddingEnd="30dp"
+                android:layout_alignBottom="@+id/thirdMark"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="19dp" />
 
 
         </RelativeLayout>
